@@ -1,0 +1,42 @@
+{
+  "name": "@bedrock/vue-router",
+  "version": "0.0.1-0",
+  "type": "module",
+  "description": "vue-router integration for Vue apps running on Bedrock",
+  "license": "Apache-2.0",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "@bedrock/vue": "^6.0.0",
+    "vue": "^3.5.38",
+    "vue-router": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-vue-router"
+  },
+  "keywords": [
+    "bedrock",
+    "vue",
+    "vue-router",
+    "web"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-vue-router/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-vue-router",
+  "devDependencies": {
+    "@digitalbazaar/eslint-config": "^8.0.1",
+    "eslint": "^9.39.4"
+  }
+}
